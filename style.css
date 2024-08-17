@@ -33,6 +33,10 @@ p, #preparation-time, ul, ol, table {
     font-family: outfit;
 }
 
+#preparation-time-group {
+    background-color: #FFF7FC;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
