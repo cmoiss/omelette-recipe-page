@@ -2,6 +2,13 @@ body {
     background-color: #F3E5D8;
 }
 
+main {
+    min-width: 320px;
+    max-width: 700px;
+    margin: auto;
+    background-color: white;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
