@@ -3,6 +3,11 @@
     src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
 }
 
+@font-face {
+    font-family: outfit;
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
 body {
     background-color: #F3E5D8;
 }
@@ -23,6 +28,11 @@ img {
 h1, h2 {
     font-family: young-serif;
 }
+
+p, #preparation-time, ul, ol, table {
+    font-family: outfit;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
