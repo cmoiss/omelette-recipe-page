@@ -1,3 +1,8 @@
+@font-face {
+    font-family: young-serif;
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
 body {
     background-color: #F3E5D8;
 }
@@ -15,6 +20,9 @@ img {
     max-width: 100%;
 }
 
+h1, h2 {
+    font-family: young-serif;
+}
 .attribution {
     font-size: 11px;
     text-align: center;
