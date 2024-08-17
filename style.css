@@ -18,11 +18,13 @@ main {
     margin: auto;
     background-color: white;
     padding: 40px;
+    border-radius: 15px;
 }
 
 img {
     width: auto;
     max-width: 100%;
+    border-radius: 8px;
 }
 
 h1, h2 {
