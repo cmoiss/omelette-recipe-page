@@ -56,17 +56,22 @@ strong {
 
 #preparation-time-group {
     background-color: hsl(30, 54%, 90%);
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px;
 }
 
 #preparation-time {
     color: hsl(332, 51%, 32%);
     font-weight: 700;
+    margin: 2.5px;
 }
 
-ul li::marker,
-ol li::marker {
-    color: hsl(14, 45%, 36%);
-    /* Cor dos marcadores */
+#preparation-time-group ul {
+    margin: 10px auto;
+}
+
+#preparation-time-group li {
+    margin: 8px;
 }
 
 #preparation-time-group ul li::marker {
