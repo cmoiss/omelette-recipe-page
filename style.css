@@ -70,10 +70,6 @@ strong {
     margin: 10px auto;
 }
 
-#preparation-time-group li {
-    margin: 8px;
-}
-
 #preparation-time-group ul li::marker {
     color: hsl(332, 51%, 32%);
 }
@@ -81,6 +77,7 @@ strong {
 ul li,
 ol li {
     padding-left: 20px;
+    margin: 8px;
 }
 
 ul li::marker,
