@@ -27,7 +27,8 @@ img {
     border-radius: 8px;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: young-serif;
     font-weight: 400;
 }
@@ -40,7 +41,10 @@ h2 {
     color: hsl(14, 45%, 36%);
 }
 
-p, ul, ol, table {
+p,
+ul,
+ol,
+table {
     font-family: outfit;
     font-weight: 400;
     color: hsl(30, 10%, 34%);
@@ -57,6 +61,12 @@ strong {
 #preparation-time {
     color: hsl(332, 51%, 32%);
     font-weight: 700;
+}
+
+ul li::marker,
+ol li::marker {
+    color: hsl(14, 45%, 36%);
+    /* Cor dos marcadores */
 }
 
 .table-nutrition-data {
