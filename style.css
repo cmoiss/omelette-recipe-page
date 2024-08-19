@@ -69,6 +69,10 @@ ol li::marker {
     /* Cor dos marcadores */
 }
 
+#preparation-time-group ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
 .table-nutrition-data {
     color: hsl(14, 45%, 36%);
     font-weight: 600;
