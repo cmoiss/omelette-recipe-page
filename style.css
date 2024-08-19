@@ -59,6 +59,11 @@ strong {
     font-weight: 700;
 }
 
+.table-nutrition-data {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
