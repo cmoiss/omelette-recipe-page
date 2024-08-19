@@ -99,8 +99,6 @@ ol li::marker {
 }
 
 #table-nutrition {
-    background-color: #ddd;
-    border: 1px solid black;
     border-collapse: collapse;
     width: 100%;
 }
@@ -113,9 +111,21 @@ ol li::marker {
 
 #table-nutrition th,
 #table-nutrition td {
-    border: 1px solid black;
     padding: 5px 10px;
     text-align: left;
+}
+
+#table-nutrition th {
+    font-weight: 400;
+}
+
+#table-nutrition td {
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
+
+.table-nutrition-border {
+    border-bottom: 1px solid #ddd;
 }
 
 .attribution {
