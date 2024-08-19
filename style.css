@@ -14,10 +14,10 @@ body {
 
 main {
     min-width: 320px;
-    max-width: 500px;
+    max-width: 670px;
     margin: auto;
     background-color: white;
-    padding: 20px;
+    padding: 30px;
     border-radius: 15px;
 }
 
