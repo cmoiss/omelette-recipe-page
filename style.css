@@ -103,6 +103,10 @@ ol li::marker {
     max-width: 100%;
 }
 
+#table-nutrition caption {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0px 10px 0px;
 }
 
 #table-nutrition td {
