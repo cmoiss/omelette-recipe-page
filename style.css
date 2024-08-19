@@ -99,19 +99,23 @@ ol li::marker {
 }
 
 #table-nutrition {
-    min-width: 320px;
-    max-width: 100%;
+    background-color: #ddd;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
 }
 
 #table-nutrition caption {
-    display: flex;
-    justify-content: flex-start;
-    margin: 10px 0px 10px 0px;
+    caption-side: top;
+    text-align: left;
+    margin-bottom: 10px;
 }
 
+#table-nutrition th,
 #table-nutrition td {
-    color: hsl(14, 45%, 36%);
-    font-weight: 600;
+    border: 1px solid black;
+    padding: 5px 10px;
+    text-align: left;
 }
 
 .attribution {
