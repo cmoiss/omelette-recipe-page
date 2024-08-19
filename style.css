@@ -99,12 +99,17 @@ ol li::marker {
 }
 
 #table-nutrition {
-    width: 200px;
+    width: 670px;
+    max-width: 670px;
 }
 
 #table-nutrition td {
     color: hsl(14, 45%, 36%);
     font-weight: 600;
+}
+
+#table-nutrition table {
+    width: 100%;
 }
 
 .attribution {
