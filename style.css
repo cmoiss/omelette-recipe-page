@@ -82,7 +82,8 @@ ol li {
 
 ul li::marker,
 ol li::marker {
-    color: hsl(14, 45%, 36%); /* Cor dos marcadores */
+    color: hsl(14, 45%, 36%);
+    /* Cor dos marcadores */
     font-size: 0.7em;
 }
 
@@ -91,7 +92,7 @@ ol li::marker {
 }
 
 #table-nutrition {
- width: 200px;
+    width: 200px;
 }
 
 #table-nutrition td {
