@@ -8,6 +8,10 @@
     src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #F3E5D8;
 }
