@@ -1,142 +1,151 @@
 @font-face {
-    font-family: young-serif;
-    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+  font-family: young-serif;
+  src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
 }
 
 @font-face {
-    font-family: outfit;
-    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+  font-family: outfit;
+  src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
 }
 
 * {
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #F3E5D8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f3e5d8;
 }
 
 main {
-    min-width: 320px;
-    max-width: 670px;
-    margin: auto;
-    background-color: white;
-    padding: 30px;
-    border-radius: 15px;
+  min-width: 380px;
+  max-width: 670px;
+  margin: 20px 0;
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
 }
 
 img {
-    width: auto;
-    max-width: 100%;
-    border-radius: 8px;
+  width: auto;
+  max-width: 100%;
+  border-radius: 8px;
 }
 
 h1,
 h2 {
-    font-family: young-serif;
-    font-weight: 400;
+  font-family: young-serif;
+  font-weight: 400;
 }
 
 h1 {
-    color: hsl(24, 5%, 18%);
+  color: hsl(24, 5%, 18%);
 }
 
 h2 {
-    color: hsl(14, 45%, 36%);
+  color: hsl(14, 45%, 36%);
 }
 
 hr {
-    height: 0.5px;
-    /* Reduz a altura para 1 pixel */
-    background-color: hsla(32, 10%, 34%, 0.589);
-    border: none;
+  height: 0.5px;
+  /* Reduz a altura para 1 pixel */
+  background-color: hsla(32, 10%, 34%, 0.589);
+  border: none;
 }
 
 p,
 ul,
 ol,
 table {
-    font-family: outfit;
-    font-weight: 400;
-    color: hsl(30, 10%, 34%);
+  font-family: outfit;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
 }
 
 strong {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 #preparation-time-group {
-    background-color: hsl(30, 54%, 90%);
-    padding: 15px 15px 15px 15px;
-    border-radius: 10px;
+  background-color: hsl(30, 54%, 90%);
+  padding: 15px 15px 15px 15px;
+  border-radius: 10px;
 }
 
 #preparation-time {
-    color: hsl(332, 51%, 32%);
-    font-weight: 700;
-    margin: 2.5px;
+  color: hsl(332, 51%, 32%);
+  font-weight: 700;
+  margin: 2.5px;
 }
 
 #preparation-time-group ul {
-    margin: 10px auto;
+  margin: 10px auto;
 }
 
 #preparation-time-group ul li::marker {
-    color: hsl(332, 51%, 32%);
+  color: hsl(332, 51%, 32%);
 }
 
 ul li,
 ol li {
-    padding-left: 20px;
-    margin: 8px;
+  padding-left: 20px;
+  margin: 8px;
 }
 
 ul li::marker,
 ol li::marker {
-    color: hsl(14, 45%, 36%);
-    /* Cor dos marcadores */
-    font-size: 0.7em;
+  color: hsl(14, 45%, 36%);
+  /* Cor dos marcadores */
+  font-size: 0.7em;
 }
 
 ol li::marker {
-    font-weight: 800;
+  font-weight: 800;
 }
 
 #table-nutrition {
-    border-collapse: collapse;
-    width: 100%;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 #table-nutrition caption {
-    caption-side: top;
-    text-align: left;
-    margin-bottom: 10px;
+  caption-side: top;
+  text-align: left;
+  margin-bottom: 10px;
 }
 
 #table-nutrition th,
 #table-nutrition td {
-    padding: 5px 10px;
-    text-align: left;
+  padding: 5px 10px;
+  text-align: left;
 }
 
 #table-nutrition th {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 #table-nutrition td {
-    font-weight: 700;
-    color: hsl(14, 45%, 36%);
+  font-weight: 700;
+  color: hsl(14, 45%, 36%);
 }
 
 .table-nutrition-border {
-    border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+footer {
+  margin-bottom: 20px;
 }
 
 .attribution {
-    font-size: 11px;
-    text-align: center;
+  font-size: 11px;
+  text-align: center;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }
